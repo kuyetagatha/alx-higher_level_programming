@@ -12,14 +12,14 @@ PyObject *obj;
 size = Py_SIZE(p);
 alloc = ((PyListObject *)p)->allocated;
 
-printf("[*] size of the Python List = %d\n", size);
+printf("[*] Size of the Python List = %d\n", size);
 printf("[*] Allocated  = %d\n", alloc);
 
 for (i = 0; i < size; i++)
 {
 printf("Element %d: ", i);
 
-obj = PyList_GetIttem(p, i);
+obj = PyList_GetItem(p, i);
 printf("%s\n", Py_TYPE(obj)->tp_name);
 }
 }
