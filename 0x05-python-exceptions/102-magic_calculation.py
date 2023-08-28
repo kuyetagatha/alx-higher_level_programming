@@ -2,10 +2,10 @@
 
 def magic_calculation(a, b):
 result = 0
-for i range(1, 3):
+for i in range(1, 3)
 try:
 if i > a:
-raise Exceptin('Too far')
+raise Exception('Too far')
 else:
 result += a ** b/i
 except Exception:
