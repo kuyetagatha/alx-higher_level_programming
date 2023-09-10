@@ -1,6 +1,6 @@
-/ *
+/*
  * File: 102-python.c
- * Auth: Paul agatha
+ * Auth: Paul Agatha
  */
 
 #include "Python.h"
